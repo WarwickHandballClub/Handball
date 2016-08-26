@@ -1,6 +1,5 @@
  # Handball  
  Web design  
-so i dont know what i am doing  
 # So i dont know what i am doing  
 
 # Headings:  
@@ -12,18 +11,18 @@ Calender (updatable) - Match days + times + Area, Travel sort link, Contact deta
 # Execs:  
 Pictures of Execs, Contact details, Roles in the club, Social links with social execs
 #Training and sesions:  
- Traning days for each team + times + which hall, notice - will notify people on facebook if training id cancelled  
- # Sponsorship:  
- Details, Thanks message  
- # Contact us:  
- Details for contact, Times to contact  
- # Socials:  
- Whatever the social execs have got planed (Gerardo)  
- # Images:  
- Immages of us playing + training + Pop + Other  
- # Rules of the game:  
- Rules, Vidios of correct actions  
- # EHF/other interesting leagues:  
- Vidios of Games/Hilights  
- # League Tables:  
- Leagues, Possition, Points, Player stats, Player Info?  
+Traning days for each team + times + which hall, notice - will notify people on facebook if training id cancelled  
+# Sponsorship:  
+Details, Thanks message  
+# Contact us:  
+Details for contact, Times to contact  
+# Socials:  
+Whatever the social execs have got planed (Gerardo)  
+# Images:  
+Immages of us playing + training + Pop + Other  
+# Rules of the game:  
+Rules, Vidios of correct actions  
+# EHF/other interesting leagues:  
+Vidios of Games/Hilights  
+# League Tables:  
+Leagues, Possition, Points, Player stats, Player Info?  
