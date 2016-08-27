@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<hyml="en-GB">
+
+<head>
+<!-- Image on tab -->
+<link rel="shortcut icon" href="http://handball.soc.srcf.net/wp-content/themes/path-child/favicon.ico" />
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+</style>
+<title>Warwick University Handball Club</title>
+</head>
+<body style="background-colour:powderblue;">
+
+
+<!-- Links to other pages -->
+
+<table style="width:100%">
+  <tr>
+<td><a href="http://www.WarwickHandballSociety.com">Home</a></td></td>
+<td><a href="http://www.WarwickHandballSociety.com/Freshers2016!">Freshers 2016!</a></td>
+<td><a href="http://www.WarwickHandballSociety.com/Handball">Handball</a></td>
+<td><a href="http://www.WarwickHandballSociety.com/The Club">The Club</a></td>
+<td><a href="http://www.WarwickHandballSociety.com/Training and Results">Training and Results</a></td>
+<td><a href="http://www.WarwickHandballSociety.com/Alumni">Alumni</a></td>
+<td><a href="http://www.WarwickHandballSociety.com/FAQs">FAQs</a></td>
+   </tr>
+</table>
+<br>
+
+<h1 style="text-align:center;color:blue;">Welcome</h1>
+<p>Welcome message goes here</p>
+<br>
+
+
+<!-- Link to warwicksu join page -->
+
+<h2>How to join the club</h2>
+<p>Info on how to join the club</p>
+<a href="https://www.warwicksu.com/sports/clubs/handball/" target="_blank">Join club Link</a>
+<br>
+
+
+<!-- Change src name for image to display -->
+
+<img src="clubimage.jpg" alt="Image of the club" width="400" height="300">
+</body>
+</html>
