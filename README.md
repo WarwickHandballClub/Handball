@@ -1,7 +1,6 @@
 # Handball  
 Web design  
 
-# So i dont know what i am doing  
 # Headings:  
 Home, Freshers 2016!, Handball, The club, Training and Results, Alumni, FAQs  
 # Home:  
