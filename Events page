@@ -2,58 +2,63 @@
 <html>
 <body>
 
-<form action="action_page.php">
-  First name:<br>
-  <input type="text" name="firstname" value="Mickey">
-  <br>
-  Last name:<br>
-  <input type="text" name="lastname" value="Mouse">
-  <br>
-  Mobile No:<br>
-  <input type="integer" name="mobile no" value="7482954681">
-  <br>
-  Email:<br>
-  <input type="text" name="email" value="stuiedent@examplemail.com">
-  <br>
-  Playing Positions:<br>
-  <input type="text" name="positions" value="goalkeeper">
-  <br>
-  Student ID No:<br>
-  <input type="integer" name="id" value="1516005">
-  <br>
-  Address:<br>
-  <input type="text" name="address" value="Cryfield 3 121">
-  <br>
-  Nationality:<br>
-  <input type="text" name="nationality" value="French">
-  <br>
-  Have you ever played abroad?:<br>
-  <input type="text" name="experience" value="Yes">
-  <br>
-  If so - how many years?:<br>
-  <input type="integer" name="how long" value="2">
-  <br>
-  Do you have an ITC?:<br>
-  <input type="text" name="ITC" value="Don't know">
-  <br>
-  Ethnicity:<br>
-  <input type="text" name="ethnicity" value="White">
-  <br>
-  Birth Day:
-  <input type="integer" name="day" value="09">
-  Month:
-  <input type="integer" name="month" value="03">
-  Year:
-  <input type="integer" name="year" value="1998">
-  <br>
-  Last 5 digits of either a passport, driving license, national ID card number:<br>
-  <input type="text" name="5 digit no." value="5AZ67">
-  <br><br>
-  <input type="submit" value="Submit">
+<form action="mailto:ccameronnichol@gmail.com" method="post" enctype="text/plain">
+  <fieldset>
+    <legend>Personal information:</legend>
+    First name:<br>
+    <input type="text" name="firstname" value="Mickey">
+    <br>
+    Last name:<br>
+    <input type="text" name="lastname" value="Mouse">
+    <br>
+    Mobile No:<br>
+    +44 <input type="integer" name="mobile no" size="12" value="7482954681">
+    <br>
+    Email:<br>
+    <input type="text" name="email" size="30" value="stuiedent@examplemail.com">
+    <br>
+    Playing Positions:<br>
+    <input type="text" name="positions" size="25" value="goalkeeper">
+    <br>
+    Student ID No:<br>
+    <input type="integer" name="id" size="5" value="1516005">
+    <br>
+    Address:<br>
+    <input type="text" name="address" value="Cryfield 3 121">
+    <br>
+    Nationality:<br>
+    <input type="text" name="nationality" value="French">
+    <br>
+    Have you ever played abroad?:<br>
+    <input type="radio" name="experience" value="yes"> Yes<br>
+    <input type="radio" name="experience" value="no"> No
+    <br>
+    If so - how many years?:<br>
+    <input type="integer" name="how long" value="2">
+    <br>
+    Do you have an ITC?:<br>
+    <input type="radio" name="ITC" value="yes"> Yes<br>
+    <input type="radio" name="ITC" value="no"> No<br>
+    <input type="radio" name="ITC" value="Don't know"> Don't know
+    <br>
+    Ethnicity:<br>
+    <input type="text" name="ethnicity" value="White">
+    <br>
+    Birth Day:
+    <input type="integer" name="day" value="09">
+    Month:
+    <input type="integer" name="month" value="03">
+    Year:
+    <input type="integer" name="year" value="1998">
+    <br>
+    Last 5 digits of either a passport, driving license, national ID card number:<br>
+    <input type="text" name="5 digit no." size="3" value="5AZ67">
+    <br><br>
+    <input type="submit" value="Send">
+    <input type="reset" value="Reset">
+  </fieldset>
 </form>
 <!-- Need to change the destination --> 
-
-<p>If you click the "Submit" button, the form-data will be sent to a page called "action_page.php".</p>
 
 </body>
 </html>
