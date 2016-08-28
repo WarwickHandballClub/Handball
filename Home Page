@@ -2,6 +2,10 @@
 <hyml="en-GB">
 
 <head>
+<meta charset="UTF-8">
+<meta name="description" content="Warwick University Handball Website">
+<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+<meta name="author" content="Cameron Nichol,Gerardo Garci&#769a,Sam">
 <style>
 ul {
     list-style-type: none;
@@ -26,6 +30,10 @@ li a {
 li a:hover {
     background-color: #111111;
 }
+body {
+    background-color:powderblue;
+}
+<!-- Edit background color -->
 </style>
 </head>
 <body>
