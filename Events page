@@ -18,7 +18,15 @@
     <input type="text" name="email" size="30" value="stuiedent@examplemail.com">
     <br>
     Playing Positions:<br>
-    <input type="text" name="positions" size="25" value="goalkeeper">
+    <select name="cars">
+      <option value="goalkeeper">Goalkeeper</option>
+      <option value="left wing">Left Wing</option>
+      <option value="left back">Left Back</option>
+      <option value="center">Center</option>
+      <option value="Pivot">Pivot</option>
+      <option value="right back">Right Back</option>
+      <option value="right wing">Right wing</option>
+    </select>
     <br>
     Student ID No:<br>
     <input type="integer" name="id" size="5" value="1516005">
