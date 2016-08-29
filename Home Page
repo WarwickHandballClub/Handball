@@ -2,10 +2,19 @@
 <hyml="en-GB">
 
 <head>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 <meta charset="UTF-8">
 <meta name="description" content="Warwick University Handball Website">
-<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+<meta name="keywords" content="Warwick,Handball,University,Freshers">
 <meta name="author" content="Cameron Nichol,Gerardo Garci&#769a,Tyranno Taiwo">
+
+  <!--[if lt IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+
 <style>
 ul {
     list-style-type: none;
@@ -30,14 +39,17 @@ li a {
 li a:hover {
     background-color: #111111;
 }
+canvas {
+    background-color:#d3d3d3;
+}
 body {
     background-color:powderblue;
 }
 <!-- Edit background color -->
+
 </style>
 </head>
 <body>
-
 <!-- Links to other pages -->
 <ul>
 <li><a class="active" href="#Home">Home</a></li>
@@ -49,18 +61,81 @@ body {
 <li><a href="#FAQs">FAQs</a></li>
 </ul>
 <br>
-
-<h1 style="text-align:center;color:blue;">Welcome</h1>
+<header>
+<h1 style="text-align:center;font-size:200%;"><img id="Logo1" src="clublogo.jpg" alt="Logo of the club" width="100" height="100">Warwick University Handball Club</h1>
+</header>
+<h2 style="text-align:center;color:blue;">Welcome</h2>
 <p>Welcome message goes here</p>
 <br>
 
 <!-- Link to warwicksu join page -->
-<h2>How to join the club</h2>
+<h3>How to join the club</h3>
 <p>Info on how to join the club</p>
 <a href="https://www.warwicksu.com/sports/clubs/handball/">Join club Link</a>
 <br>
 
 <!-- Change src name for image to display -->
 <img src="clubimage.jpg" alt="Image of the club" width="400" height="300">
+
+<canvas id="myCanvas" width="580" height="320"></canvas>
+    <script>
+      function loadImages(sources, callback) {
+        var images = {};
+        var loadedImages = 0;
+        var numImages = 0;
+        // get num of sources
+        for(var src in sources) {
+          numImages++;
+        }
+        for(var src in sources) {
+          images[src] = new Image();
+          images[src].onload = function() {
+            if(++loadedImages >= numImages) {
+              callback(images);
+            }
+          };
+          images[src].src = sources[src];
+        }
+      }
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+
+      var sources = {
+        darthVader: 'http://www.html5canvastutorials.com/demos/assets/darth-vader.jpg',
+        yoda: 'http://www.html5canvastutorials.com/demos/assets/yoda.jpg'
+      };
+
+      loadImages(sources, function(images) {
+        context.drawImage(images.darthVader, 20, 100, 200, 140);
+        context.drawImage(images.yoda, 360, 100, 200, 140);
+      });
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "50px Arial";
+ctx.fillText("Vs",260,180);
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "20px Arial";
+ctx.fillText("Date",268,220);
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "20px Arial";
+ctx.fillText("Venue:Time",240,270);
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "50px Arial";
+ctx.fillText("Next Game",160,55);
+
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.moveTo(0,70);
+ctx.lineTo(580,70);
+ctx.stroke();
+    </script>
+</script>
 </body>
 </html>
