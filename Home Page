@@ -45,6 +45,8 @@ body {
 <li><a href="Images">Images</a></li>
 <li><a href="League Tables">League Tables</a></li>
 </ul>
+  </div>
+</nav>
 <br>
 <header>
 <h1 style="text-align:center;font-size:200%;"><img id="Logo1" src="clublogo.jpg" alt="Logo of the club" width="100" height="100">Warwick University Handball Club</h1>
