@@ -40,6 +40,8 @@ body {
 <li><a href="Images">Images</a></li>
 <li><a href="League Tables">League Tables</a></li>
 </ul>
+  </div>
+</nav>
 <br>
 
 <form action="mailto:ccameronnichol@gmail.com" method="post" enctype="text/plain">
