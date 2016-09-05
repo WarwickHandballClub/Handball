@@ -7,6 +7,7 @@
 
 <meta charset="UTF-8">
 <meta name="description" content="Warwick University Handball Website">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="keywords" content="Warwick,Handball,University,Freshers">
 <meta name="author" content="Cameron Nichol,Gerardo Garci&#769a,Tyranno Taiwo">
 
@@ -15,43 +16,22 @@
   <![endif]-->
 
 <style>
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333333;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #111111;
-}
-
 body {
     background-color:powderblue;
 }
 <!-- Change Background -->
 </style>
 </head>
+
 <body>
 <!-- Links to other pages -->
-<ul>
-<li><a class="active" href="#Home">Home</a></li>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+<ul class="nav navbar-nav">
+<li><a href="#Home">Home</a></li>
 <li><a href="#Freshers 2016!">Freshers 2016!</a></li>
 <li><a href="#Handball">Handball</a></li>
-<li><a href="#Events">Events</a></li>
+<li class="active"><a href="#Events">Events</a></li>
 <li><a href="Execs">Execs</a></li>
 <li><a href="#The Club">The Club</a></li>
 <li><a href="#Training and Sesions">Training and Sesions</a></li>
