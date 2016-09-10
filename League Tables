@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<hyml="en-GB">
+
+<head>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<meta charset="UTF-8">
+<meta name="description" content="Warwick University Handball Website">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="Warwick,Handball,University,Freshers">
+<meta name="author" content="Cameron Nichol,Gerardo Garci&#769a,Tyranno Taiwo">
+
+  <!--[if lt IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+
+<style>
+canvas {
+    background-color:#d3d3d3;
+}
+body {
+    background-color:powderblue;
+}
+<!-- Edit background color -->
+
+</style>
+</head>
+
+<body>
+<!-- Links to other pages -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+<ul class="nav navbar-nav">
+<li class="active"><a href="#Home">Home</a></li>
+<li><a href="#Freshers 2016!">Freshers 2016!</a></li>
+<li><a href="#Handball">Handball</a></li>
+<li><a href="#Events">Events</a></li>
+<li><a href="Execs">Execs</a></li>
+<li><a href="#The Club">The Club</a></li>
+<li><a href="#Training and Sessions">Training and Sessions</a></li>
+<li><a href="#Sponsorship">Sponsorship</a></li>
+<li><a href="#Contact Us">Contact Us</a></li>
+<li><a href="Images">Images</a></li>
+<li><a href="League Tables">League Tables</a></li>
+</ul>
+  </div>
+</nav>
+<br>
+</body>
+</html>
