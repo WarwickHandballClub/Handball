@@ -33,7 +33,7 @@ body {
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
 <ul class="nav navbar-nav">
-<li class="active"><a href="#Home">Home</a></li>
+<li><a href="#Home">Home</a></li>
 <li><a href="#Freshers 2016!">Freshers 2016!</a></li>
 <li><a href="#Handball">Handball</a></li>
 <li><a href="#Events">Events</a></li>
@@ -43,7 +43,7 @@ body {
 <li><a href="#Sponsorship">Sponsorship</a></li>
 <li><a href="#Contact Us">Contact Us</a></li>
 <li><a href="Images">Images</a></li>
-<li><a href="League Tables">League Tables</a></li>
+<li class="active"><a href="League Tables">League Tables</a></li>
 </ul>
   </div>
 </nav>
